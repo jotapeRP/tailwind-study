@@ -43,7 +43,7 @@ html {
 }
 
 .car_buttons {
-  @apply absolute top-[85%] left-[50%] flex;
+  @apply absolute top-[85%] left-[50%] flex flex-col lg:flex-row;
 }
 
 .btn {
@@ -51,7 +51,7 @@ html {
 }
 
 .inventory {
-  @apply text-[#393c41] bg-slate-50 bg-opacity-60 ml-8;
+  @apply text-[#393c41] bg-slate-50 bg-opacity-60 lg:ml-8;
 }
 
 .down_svg {

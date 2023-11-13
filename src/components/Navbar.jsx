@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img src={tesla} alt="tesla logo" className="h-4" />
-      <div>
+      <div className="hidden lg:block">
         <a href="#modelS" className="nav_link">
           Model S
         </a>
@@ -26,10 +26,10 @@ const Navbar = () => {
         </a>
       </div>
       <div>
-        <a href="#shop" className="nav_link">
+        <a href="#shop" className="nav_link hidden lg:block">
           Shop
         </a>
-        <a href="#account" className="nav_link">
+        <a href="#account" className="nav_link hidden lg:block">
           Account
         </a>
         <a href="#menu" className="nav_link">
