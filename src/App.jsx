@@ -1,4 +1,3 @@
-import "./App.css";
 import modelS from "./images/ModelS.jfif";
 import model3 from "./images/Model3.jfif";
 import modelX from "./images/ModelX.jfif";
