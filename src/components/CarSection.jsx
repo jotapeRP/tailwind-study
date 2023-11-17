@@ -18,11 +18,11 @@ const CarSection = (props) => {
         >
           <path
             stroke="var(--tds-icon--fill, #171a20)"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             d="m19.5 12.5-4.5 4-4.5-4"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </a>
