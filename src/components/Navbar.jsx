@@ -25,7 +25,7 @@ const Navbar = () => {
           Solar Panels
         </a>
       </div>
-      <div>
+      <div className="flex lg:flex-row">
         <a href="#shop" className="nav_link hidden lg:block">
           Shop
         </a>
